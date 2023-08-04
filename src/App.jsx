@@ -7,6 +7,9 @@ import PageNotFound from "./pages/PageNotFound";
 import Login from "./pages/Login";
 import AppLayout from "./pages/AppLayout";
 import CityList from "./components/CityList";
+import CountryList from "./components/CountryList";
+import City from "./components/City";
+
 function App() {
   const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -17,7 +20,7 @@ function App() {
     async function fetchCities() {
       try {
         setIsLoading(true);
-        const res = await fetch(`http://localhost:9000/cities`);
+        const res = await fetch(`${URL}cities`);
         const data = await res.json();
         setCities(data);
       } catch {
@@ -45,7 +48,12 @@ function App() {
             path="cities"
             element={<CityList cities={cities} isLoading={isLoading} />}
           />
-          <Route path="countries" element={<p>Countries</p>} />
+          <Route path="cities/:id" element={<City />} isLoading={isLoading} />}
+          />
+          <Route
+            path="countries"
+            element={<CountryList cities={cities} isLoading={isLoading} />}
+          />
           <Route path="form" element={<p>form</p>} />
         </Route>
         <Route path="pricing" element={<Pricing />} />
