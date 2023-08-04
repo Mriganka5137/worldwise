@@ -8,7 +8,7 @@ const formatDate = (date) =>
     weekday: "long",
   }).format(new Date(date));
 
-function City() {
+function City({ city }) {
   // TEMP DATA
   const currentCity = {
     cityName: "Lisbon",
@@ -51,9 +51,7 @@ function City() {
         </a>
       </div>
 
-      <div>
-        <ButtonBack />
-      </div>
+      <div>{/* <ButtonBack /> */}</div>
     </div>
   );
 }
