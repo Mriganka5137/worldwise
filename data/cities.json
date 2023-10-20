@@ -1,66 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "El Campillo",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-20T13:23:41.941Z",
-      "notes": "",
-      "position": {
-        "lat": "41.261291493919884",
-        "lng": "-4.965820312500001"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Guwahati",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-10-20T13:23:41.941Z",
-      "notes": "This is the best Place",
-      "position": {
-        "lat": "41.261291493919884",
-        "lng": "-4.965820312500001"
-      },
-      "id": 98443199
-    },
-    {
       "cityName": "Khumtai",
       "country": "India",
       "emoji": "🇮🇳",
@@ -85,14 +25,14 @@
       "id": 98443201
     },
     {
-      "cityName": "Teok",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-10-20T13:39:43.579Z",
-      "notes": "Debashis's Home",
+      "cityName": "Zaragoza",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-20T14:47:53.995Z",
+      "notes": "",
       "position": {
-        "lat": "26.843677401113002",
-        "lng": "94.41650390625001"
+        "lat": "41.45919537950706",
+        "lng": "-1.0327148437500002"
       },
       "id": 98443202
     }
