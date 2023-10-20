@@ -21,7 +21,6 @@ function App() {
           <Route path="product" element={<Product />} />
           <Route path="app" element={<AppLayout />}>
             <Route index element={<CityList />} />
-
             <Route path="cities" element={<CityList />} />
             <Route path="cities/:id" element={<City />} />
             <Route path="countries" element={<CountryList />} />

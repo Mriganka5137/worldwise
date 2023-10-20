@@ -8,6 +8,7 @@ function Sidebar() {
       <Logo />
       <AppNav />
       <Outlet />
+      {/* <Outlet /> is a special component that renders the child route's component. */}
       <footer className={styles.footer}>
         <p className={styles.copyright}>
           &copy; Copyright {new Date().getFullYear()} by Worldwise Inc.
